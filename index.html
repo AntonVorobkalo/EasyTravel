@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="wrapper">
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <nav class="menu">
+          <ul class="menu__items">
+            <li class="menu__item">
+              <a class="menu__item-link" href="#">Главная</a> 
+            </li>
+            <li class="menu__item">
+              <a class="menu__item-link" href="#about">О компании</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__item-link" href="#country">Страны</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__item-link" href="#price">Цены</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__item-link" href="#contact">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="menu__button">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="header__info">
+          <div class="header__title">
+            EASY TRAVEL 
+          </div>
+          <div class="header__text">
+              <p>EASY TRAVEL - зарекомендовавшие себя тур агенство по всей России. Лучшие отзывы; дешевые цены; премиальное качество.</p>
+              <p>Зарекомендовавшие себя тур агенство по всей России</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+    <main class="main">
+      <section class="about" id="about">
+        <div class="container">
+          <div class="about__inner">
+            <div class="about__info">
+              <div class="about__title">
+                О компании
+              </div>
+              <div class="about__text">
+                <p>EASY TRAVEL - компания появившаяся в 2012 и уже насчитывающая более 100 000 довольных пользователей.</p>
+                <p>Более 100 стран в ассортименте. Для одиночных, парных и семейных поездок. Незабываемые воспоминания и ощущения на всю жизнь</p>
+              </div>
+            </div>
+            <div class="about__slider">
+              <div class="about__slider-item">
+                <img class="about__image" src="images/about-img.png" alt="about__image">
+              </div>
+              <div class="about__slider-item">
+                <img class="about__image" src="images/about-img.png" alt="about__image">
+              </div>
+              <div class="about__slider-item">
+                <img class="about__image" src="images/about-img.png" alt="about__image">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="country" id="country">
+        <div class="container">
+          <div class="country__inner">
+            <div class="country__title">
+              Популярные страны
+            </div>
+            <div class="country__text">
+              Страны пользующиеся особенной популярностью у наших клиентов
+            </div>
+            <div class="country__items">
+              <div class="country__item">
+                <img class="country__item-img" src="images/turkey.png" alt="country-img">
+                <p>Турция</p>
+              </div>
+              <div class="country__item">
+                <img class="country__item-img" src="images/UAE.png" alt="country-img">
+                <p>ОАЭ</p>
+              </div>
+              <div class="country__item">
+                <img class="country__item-img" src="images/egypt.png" alt="country-img">
+                <p>Египет</p>
+              </div>
+              <div class="country__item">
+                <img class="country__item-img" src="images/maldives.png" alt="country-img">
+                <p>Мальдивы</p>
+              </div>
+              <div class="country__item">
+                <img class="country__item-img" src="images/france.png" alt="country-img">
+                <p>Франция</p>
+              </div>
+              <div class="country__item">
+                <img class="country__item-img" src="images/italy.png" alt="country-img">
+                <p>Италия</p>
+              </div>
+              <div class="country__item">
+                <img class="country__item-img" src="images/rome.png" alt="country-img">
+                <p>Рим</p>
+              </div>
+              <div class="country__item">
+                <img class="country__item-img" src="images/qazaqstan.png" alt="country-img">
+                <p>Казахстан</p>
+              </div>
+              <div class="country__item">
+                <img class="country__item-img" src="images/spain.png" alt="country-img">
+                <p>Испания</p>
+              </div>
+              <div class="country__item">
+                <img class="country__item-img" src="images/germany.png" alt="country-img">
+                <p>Германия</p>
+              </div>
+              <div class="country__item">
+                <img class="country__item-img" src="images/britain.png" alt="country-img">
+                <p>Англия</p>
+              </div>
+              <div class="country__item">
+                <img class="country__item-img" src="images/portgual.png" alt="country-img">
+                <p>Португалия</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="price" id="price"> 
+        <div class="container">
+          <div class="price__inner">
+            <div class="price__title">
+              Ценообразование
+            </div>
+            <div class="price__text">
+              Благодаря нашей системе рассчетов вы можете узнать примерную цену за определенные услуги
+            </div>
+              <form class="price__form">
+                <select id="country" class="price__select" name="country">
+                  <option value="country">Страна</option>
+                  <option value="turkey">Турция</option>
+                  <option value="UAE">ОАЭ</option>
+                  <option value="egypt">Египет</option>
+                  <option value="maldives">Мальдивы</option>
+                  <option value="france">Франция</option>
+                  <option value="italy">Италия</option>
+                  <option value="rome">Рим</option>
+                  <option value="qazaqstan">Казахстан</option>
+                  <option value="spain">Испания</option>
+                  <option value="germany">Германия</option>
+                  <option value="britain">Англия</option>
+                  <option value="portgual">Португалия</option>
+                </select>
+                <select id="hotel" class="price__stars" name="starts">
+                  <option value="star">
+                    Отель
+                  </option>
+                  <option value="one">
+                    1 звездночный
+                  </option>
+                  <option value="two">
+                    2 звездночный
+                  </option>
+                  <option value="three">
+                    3 звездночный
+                  </option>
+                  <option value="four">
+                    4 звездночный
+                  </option>
+                  <option value="five">
+                    5 звездночный
+                  </option>
+                </select>
+
+                <select id="day" class="price__days" name="days">
+                  <option value="days">
+                    Кол-во дней
+                  </option>
+                  <option value="2-5">
+                    От 2 до 5
+                  </option>
+                  <option value="5-10">
+                    От 5 до 10
+                  </option>
+                  <option value="10-15">
+                    От 10 до 15
+                  </option>
+                  <option value="15-22">
+                    От 15 до 22
+                  </option>
+                </select>
+                <button id="btn" class="button__price" type="button"> 
+                  Рассчитать
+                </button>
+                <p class="result__price">Примерная цена:</p>
+                <span id="number" class="result__num">0 рублей</span>
+              </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="container">
+          <div class="contact__inner">
+            <div class="contact__info">
+            <div class="contact__title">
+              Контакты  
+            </div>
+            <div class="contact__text">
+              Оставьте свои данные и в ближайшее время мы с вами свяжимся
+            </div>
+            <form class="contact-form">
+              <input class="contact__input" placeholder="Ваше имя" type="text">
+              <input class="contact__input" placeholder="E-mail" type="text">
+              <input class="contact__input" placeholder="Номер телефона" type="text">
+              <a class="contact-button" href="#">Отправить</a>
+            </form>
+          </div>
+          <div class="contact__image">
+            <img src="images/contact.png" alt="contact">
+          </div>
+        </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__info">
+            <ul class="footer__list">
+              <li class="footer__item">Контакты:</li>
+              <li class="footer__item">тел: +7777777777;</li>
+              <li class="footer__item">почта: EASY TRAVEL;</li>
+              <li class="footer__item">улица: Шевченко 97Б</li>
+            </ul>
+          </div>
+          <div class="footer__menu">
+            <ul class="footer__list">
+              <li class="footer__item">Главная</li>
+              <li class="footer__item">О нас</li>
+              <li class="footer__item">Страны</li>
+              <li class="footer__item">Цены</li>
+              <li class="footer__item">Контакты </li>
+            </ul>
+          </div>
+          <div class="footer__social">
+            <a class="footer__social-link" href="#">
+              <img class="footer__social-image" src="images/instagram.png" alt="social-image">
+            </a>
+            <a class="footer__social-link" href="#">
+              <img class="footer__social-image" src="images/telegram.png" alt="social-image">
+            </a>
+            <a class="footer__social-link" href="#">
+              <img class="footer__social-image" src="images/whatsapp.png" alt="social-image">
+            </a>
+            <a class="footer__social-link" href="#">
+              <img class="footer__social-image" src="images/telegram.png" alt="social-image">
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
